@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Sugerencias</title>
+  </head>
+  <body>
+    <header class="main-header">
+   <div class="container container--flex">
+            <div class="logo-container column column--50"> 
+                <h1 class="logo">ServiCompu</h1>
+            </div>
+        <div class="main-header__contactInfo column column--50">
+            <p class="main-header__contactInfo__phone">
+                <span class="icon-phone"> 999-999-999 </span>
+            </p>
+            <p class="main-header__contactInfo__address">
+                <span class="icon-location"> Solanda OE-3 Quito-Ecuador </span>
+            </p>
+        </div>
+    </div>
+</header>
+<nav class="main-nav">
+    <div class="container container--flex">
+        <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
+            <li class="menu__item"><a href="quienesSomos.html" class="menu__link menu__link--select">Quiénes Somos</a></li>
+            <li class="menu__item"><a href="contactanos.html" class="menu__link">Contactanos</a></li>
+            <li class="menu__item"><a href="promociones.html" class="menu__link">Promociones</a></li>
+        </ul>
+   <div class="social-icon">
+    <a target="_BLANCK" href="https://www.facebook.com/ServiCompu-110841714100530/?modal=admin_todo_tour" class="social-icon__link"><span class="fab fa-facebook-square"></span></a>
+    <a target="_BLANCK" href="https://twitter.com/ServiCompu10" class="social-icon__link"><span class="fab fa-twitter-square"></span></a>
+    <a target="_BLANCK" href="https://www.instagram.com/servicompu.32/" class="social-icon__link"><span class="fab fa-instagram-square"></span></a>
+   
+</div>
+</div>      
+  </nav>
+ 
+<section class="banner">
+    <img src="../img/about.jpg" alt="" class="banner__img">
+    <div class="banner__content"> Acerca de nosotros y nuestro servicio. </div>
+</section>
+
+    <main id="sugerencias" class="centrado">
+      <div id="divisorSugerencias">
+        
+        
+        <form id="formulario" action="" method="POST">
+          <legend>Formulario de registro</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre"/>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" />
+
+          <label for="correo">Mail</label>
+          <input type="mail" id="correo" name="correo"/>
+          
+          <label for="numero">Telefono</label>
+          <input type="number" id="numero" name="numero" />
+          <label for="direccion">Direccion</label>
+          <input type="text" id="direccion" name="direccion"  />
+          <label for="sugerencia">Escriba su sugerencia </label>
+          <textarea name="sugerencia" id="sugerencia" cols="30" rows="10"></textarea>
+          <input type="submit" name="enviar" id="boton1" />
+        </form>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="centrado">
+        <div class="pie">
+          <nav class="pieParte">
+            <nav class="redesSociales">
+              <p>Nuestras redes sociales</p>
+              <a href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </nav>
+          </nav>
+
+          <div id="ubiacion " class="pieParte">
+            <p>Ubicacion</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sa
+              minus.
+            </p>
+          </div>
+          <div id="twiiter" class="pieParte">
+            <p>Seccion destinado a twiter</p>
+          </div>
+        </div>
+
+        <p class="centradoSecundario">Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/4ebf57fa64.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/sweetalert2.all.min.js" crossorigin="anonymous"></script>
+        <script src="../js/sweetalert2.all.min.js"></script>
+        <script src="../js/sugerencias.js"></script>
+  </body>
+</html>

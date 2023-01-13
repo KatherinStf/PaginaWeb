@@ -1,0 +1,115 @@
+img{
+    width: 100%;
+
+}
+.flexPromocionIcono{
+	margin-right: 0;
+
+}
+.flexPromocionIcono img{
+  width: 200px;
+  height: 200px;
+}
+.botonComprar {
+    margin-top: 10px;
+    padding: 8px;
+    width: 150px;
+    background: #A3C0E0;
+    border-radius: 10px;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none; 
+    border-style: none;
+    font-family:'Montserrat', sans-serif;	
+
+}
+li{
+        font-size: 0.9em;
+        margin:0;
+        
+
+    }
+.botonComprar:hover{
+    background: #F65B43;
+    color:white;
+}
+
+/*-----------------------------------------*/
+.flexPromocionIcono {
+
+        justify-content: center; 
+        text-align:center; 
+    }
+
+.text_dos{
+    text-align: left; 
+    margin-left: 30px;
+}
+
+.text_center{
+    text-align: ; 
+}
+@media(min-width:370px)
+
+{
+   .flexPromocionIcono img{
+   width: 250px;
+  height: 250px;
+}
+}
+
+@media(min-width:560px)
+
+{
+    .flexPromocion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.flexPromocionIcono {
+        flex-basis: calc(28% - 5px);
+    }
+    li{
+        font-size: 0.9em;
+        margin:0;
+
+    }
+   
+}
+/**SECCCION DE LOS ESTILOS DE PROMOCIONES **/
+
+@media(min-width:768px) {
+     .divisorContactanosClase {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .flexPromocionIcono {
+        flex-basis: calc(28% - 5px);
+    }
+    .flexPromocionIcono img{
+       width: 300px;
+       height: 300px;
+     }
+    li{
+        font-size: 1em;
+        margin:0;
+    }
+
+    /**COLOCA EL TITULO DE LOS PRODCUTOS EN PROMOCION **/
+    .centradoSecundarioPromocion {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+}
+.centradoSecundarioPromocion{
+	font-family: 'Pacifico', cursiva;
+	font-size: 1.6em;
+}

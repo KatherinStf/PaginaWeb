@@ -1,0 +1,104 @@
+.banner {
+        margin-top: -200px;
+        z-index: -1000;
+    }
+    .main-header__contactInfo__address {
+    padding: 10px;
+    margin: 0;
+    color:white;
+}
+    .centrado_boton{
+    	text-align: center;
+    	display: flex;
+    }
+    .main-header
+   {
+   	background-color: black;
+   }
+ @media(min-width:450px) {
+   .banner {
+    margin-top: -20;
+    position: relative;
+}
+.main-header__contactInfo__address {
+    padding: 10px;
+    margin: 0;
+    color:white;
+}
+
+}
+.contenedor{
+	margin-top: 50px;
+	margin-bottom: 100px;	
+}
+.espaciado{
+	margin-bottom: 40px;
+}
+.styleadmin {
+    margin-top: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 150px;
+    background: #A3C0E0;
+    border-radius: 10px;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-left: 30px;
+
+}
+.styleadmin:hover{
+	background: #F65B43;
+    color:white;
+}
+
+@media (min-width: 540px)
+{
+.flexPromocionIcono img {
+    width: 250px;
+    height: 200px;
+}
+.espaciado{
+	margin-bottom: 40px;
+}
+.styleadmin{
+	margin-left: 40px;
+}
+}
+
+@media (min-width: 1024px)
+{
+.flexPromocionIcono img {
+    width: 250px;
+    height: 200px;
+
+}
+.espaciado{
+	margin-bottom: 40px;
+}
+.styleadmin{
+	margin-left: 60px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

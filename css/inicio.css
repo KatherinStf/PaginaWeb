@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+
+}
+body{
+	background: url(../img/fondo1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+.container--form{
+
+	position: relative;
+	background:rgba(0,0,0,.9);
+	width: 100%;
+	max-width: 500px;
+	margin: 50px auto;
+	color:#fff;
+	border-radius: 5px;
+
+}
+
+
+.container--form .toggle{
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 25px;
+	border-top: 2px solid #F65B43;
+	border-bottom: 2px solid #F65B43;
+	text-align: center;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+.container--form .toggle span{
+	letter-spacing: 1px;
+}
+.container--form .toggle:hover{
+    border-top: 2px solid #0075d9;
+	border-bottom: 2px solid #0075d9;
+}
+
+.container--form h2{
+	margin: 0 0 28px 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+
+}
+
+.container--form input[type="text"],
+.container--form input[type="password"],
+.container--form input[type="email"],
+.container--form input[type="number"]{
+	outline: none;
+	background: rgba(0,0,0,1);
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 2px;
+	border-bottom: 4px solid #F65B43;
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	transition: all .5s ease;
+	color:white;
+}
+
+.container--form input[type="text"]:hover,
+.container--form input[type="password"]:hover,
+.container--form input[type="email"]:hover,
+.container--form input[type="number"]:hover{
+	border-bottom: 4px solid #2D6DA4;
+}
+.container--form input[type="submit"]{
+	background:#F65B43;
+	color: #F65B43;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-size: 16px;
+	cursor: pointer;
+	transition:all .3s ease;
+	color:white;
+}
+.container--form input[type="submit"]:hover{
+	background:#2D6DA4 ;
+	color: white;
+
+}
+.container--form .formulario1{
+	padding: 40px;
+}
+.style{
+	text-decoration: none;
+	color: white;
+}
+.color{
+	background-color: black;
+}
+.style--form{
+	margin: 125px;
+}
+.main-header__contactInfo__address{
+       color: white;
+    }
+@media screen and (min-width: 450px) {
+   
+    .main-header__contactInfo{
+        text-align: right; 
+    }
+   
+   
+    .main-header__contactInfo__phone{
+        background: none;
+    }
+    .main-header__contactInfo__address{
+       color: white;
+    }
+    }
+    .centrado_boton{
+    	text-align: center;
+    	display: flex;
+    }
